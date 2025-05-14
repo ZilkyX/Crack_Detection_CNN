@@ -1,0 +1,51 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment directory (e.g., venv, env, .env, etc.)
+venv/
+env/
+*.env
+*.venv
+
+# IDE files (e.g., VSCode, PyCharm)
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# Log files
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Test and coverage directories
+.coverage/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Temporary files created by editors
+*~  # Vim temporary files
+*.swp  # Vim swap files
+
+# Dependency directories
+node_modules/
+
+# Pytest cache
+.cache/
+
+# Flask instance folder (if using Flask)
+instance/
+
+# Kubernetes/Container settings
+docker-compose.override.yml
+
+# Miscellaneous
+*.bak
+*.tmp
